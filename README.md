@@ -13,14 +13,14 @@ Tendo como referência o projeto video-maker do Filipe Deschamps, o código foi 
   
   2 - A extensão do vídeo renderizado é .MOV, sendo necessário algum player para reproduzir o vídeo no Windows, já que o player padrão não possui o CODEC necessário. Recomendo o 'VLC Media Player'.
   
-   Alguns dos módulos utilizados no projeto:
+   Algumas das dependências utilizados no projeto:
   - fs;
   - sbd;
   - gm;
   - path;
   - readline.
   
-  Qualquer módulo pode ser instalado utilizando o seguinte comando no terminal: 'npm install NomeDoModulo'
+  Qualquer dependência pode ser instalado utilizando o seguinte comando no terminal: 'npm install NomeDoModulo'
   
   Também foi utilizado o Image Magic para redimensionar imagens, o mesmo pode ser baixado aqui: https://imagemagick.org/script/download.php.
   Possuo Windows 10, baixei a versão 'ImageMagick-7.0.8-65-Q16-x64-dll.exe'
@@ -29,7 +29,7 @@ Tendo como referência o projeto video-maker do Filipe Deschamps, o código foi 
 
 --=== OBSERVAÇÕES TÉCNICAS ===--
 
-  Foi feito o robô "userInput", porém não foi utilizado. O módulo do Node 'readline-sync' deveria obter os caracteres em UTF-8, mas isso não acontece. A solução imediata foi usar o módulo 'readline' (está funcionando o UTF-8), que obtém a entrada pelo terminal e retorna uma função callback; e nessa função chamar as demais funções do programa. A partir disso, boa parte do código do Deschamps pode ser aproveitado para cumprir os objetivos pretendidos.
+  Foi feito o robô "userInput", porém não foi utilizado. A dependência do Node 'readline-sync' deveria obter os caracteres em UTF-8, mas isso não acontece. A solução imediata foi usar a dependência 'readline' (está funcionando o UTF-8), que obtém a entrada pelo terminal e retorna uma função callback; e nessa função chamar as demais funções do programa. A partir disso, boa parte do código do Deschamps pode ser aproveitado para cumprir os objetivos pretendidos.
   
   --=== REFERÊNCIAS ===--
   
