@@ -29,7 +29,7 @@ Tendo como referência o projeto video-maker do Filipe Deschamps, o código foi 
 
 --=== OBSERVAÇÕES TÉCNICAS ===--
 
-  Foi feito o robô "userInput", porém não foi utilizado. O módulo do Node 'readline-sync' deveria obter os caracteres em UTF-8, mas isso não acontece. A solução imediata foi usar o módulo 'readline' (está funcionando o UTF-8), que obtém a entrada pelo terminal e dispara uma função de callback; e nessa função chamar as demais funções do programa. A partir disso, boa parte do código do Deschamps pode ser aproveitado para cumprir os objetivos pretendidos.
+  Foi feito o robô "userInput", porém não foi utilizado. O módulo do Node 'readline-sync' deveria obter os caracteres em UTF-8, mas isso não acontece. A solução imediata foi usar o módulo 'readline' (está funcionando o UTF-8), que obtém a entrada pelo terminal e retorna uma função de callback; e nessa função chamar as demais funções do programa. A partir disso, boa parte do código do Deschamps pode ser aproveitado para cumprir os objetivos pretendidos.
   
   --=== REFERÊNCIAS ===--
   
