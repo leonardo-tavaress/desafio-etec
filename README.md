@@ -3,7 +3,7 @@
 
   Foi proposto para nós alunos fazer um programa que capturasse a entrada de dados do usuário, quebrasse em sentenças e que fosse gerado um vídeo a partir disso, com um outro vídeo de fundo.
 Tendo como referência o projeto video-maker do Filipe Deschamps, o código foi alterado juntamente com o template para atingir tal objetivo.
-  Foi usado como parâmetro um vídeo de backgrund com 15s (está na pasta content) e um texto de 50 palavras (contendo 3 sentenças, também na pasta content). Qualquer uso acima desse escopo, basta alterar o template.
+  Foi usado como parâmetro um vídeo de backgrund com 15s (está na pasta content) e um texto de aproximadamente 50 palavras (contendo 3 sentenças, também na pasta content). Qualquer uso acima desse escopo, basta alterar o template.
 
 --=== OBSERVAÇÕES PARA O FUNCIONAMENTO DO PROJETO ===--
 
